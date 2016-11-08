@@ -8,7 +8,7 @@ plot.hist(data)
 plot.title("census_train Age histogram")
 plot.xlabel("Age")
 plot.ylabel("Amount")
-plot.show()
+"""plot.show()"""
 
 files = [("census_train.csv", "modified_census_train.csv"), ("census_test.csv", "modified_census_test.csv")]
 for inputFileName, outputFileName in files:
